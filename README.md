@@ -10,6 +10,8 @@ So I changed the URLs used by Axios to JSONPlaceholder, but with some caveats:
 
 That being said, if you replace all the axios used URLs (in App.js) with a list of your choice (array of objects with title, completed and id properties), then the app works as intended, PUTing all the updated items in the list (titles and marked completed), DELETing items from the list, POSTing new items to the list. So yeah, it works. Just change the URLs if you want to try it out.
 
+You can see it in action here https://codepen.io/alina-balteanu/pen/xBRgNO
+
 ![](https://res.cloudinary.com/dshmwg7vw/image/upload/v1551817466/project6.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
